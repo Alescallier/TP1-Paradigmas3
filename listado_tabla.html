@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MiTienda — Productos (Tabla)</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">MiTienda</a>
+      <nav aria-label="Principal">
+        <ul class="menu">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="listado_tabla.html" aria-current="page">Tabla</a></li>
+          <li><a href="listado_box.html">Boxes</a></li>
+          <li><a href="producto.html">Producto</a></li>
+          <li><a href="comprar.html">Comprar</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+    <!-- MAIN -->
+  <main class="container">
+    <section class="listado-tabla">
+      <h1>Listado de productos</h1>
+      <p>Tabla con todos los productos disponibles.</p>
+
+      <div class="table-responsive">
+        <table class="product-table" aria-describedby="tabla-desc">
+          <caption id="tabla-desc" class="sr-only">Productos disponibles con imagen, categoría, precio, stock y enlace a ficha.</caption>
+          <thead>
+            <tr>
+              <th scope="col">Imagen</th>
+              <th scope="col">Nombre</th>
+              <th scope="col">Categoría</th>
+              <th scope="col">Precio</th>
+              <th scope="col">Stock</th>
+              <th scope="col">Acción</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+            <tr>
+                <!-- Producto 1 -->
+              <td><img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png" alt="Zapatillas running azules"></td>
+              <td>Zapatillas Running</td>
+              <td>Deportes</td>
+              <td>$10.000</td>
+              <td>15</td>
+              <td><a class="btn btn-table" href="producto.html">Ver</a></td>
+            </tr>
+
+            <tr>
+                <!-- Producto 1 -->
+              <td><img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png" alt="Auriculares inalámbricos"></td>
+              <td>Auriculares Bluetooth</td>
+              <td>Electrónica</td>
+              <td>$6.500</td>
+              <td>30</td>
+              <td><a class="btn btn-table" href="producto.html">Ver</a></td>
+            </tr>
+
+            <tr>
+                <!-- Producto 1 -->
+              <td><img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png" alt="Mochila urbana negra"></td>
+              <td>Mochila Urbana</td>
+              <td>Accesorios</td>
+              <td>$4.200</td>
+              <td>8</td>
+              <td><a class="btn btn-table" href="producto.html">Ver</a></td>
+            </tr>
+
+            <tr>
+                <!-- Producto 1 -->
+              <td><img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png" alt="Reloj deportivo digital"></td>
+              <td>Reloj Deportivo</td>
+              <td>Gadgets</td>
+              <td>$12.000</td>
+              <td>5</td>
+              <td><a class="btn btn-table" href="producto.html">Ver</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+        <div class="container">
+            <p>&copy; 2025 MiTienda. Todos los derechos reservados.</p>
+            <p>Contacto: info@mitienda.com | Tel: 1234-5678</p>
+            <p>Siguenos en:
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
